@@ -13,6 +13,14 @@
     <artifactId>server</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>ru.gb.network-storage</groupId>
+            <artifactId>commons</artifactId>
+            <version>DEV-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
